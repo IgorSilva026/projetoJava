@@ -7,20 +7,20 @@ public class Aluno {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String nomeAluno;
+    private String NomeAluno;
     private long Id;
-    private String matriculaAluno;
-    private int idadeAluno;
+    private String MatriculaAluno;
+    private int IdadeAluno;
 
 
     //getter e setter alunos
 
     public String getNomeAluno() {
-        return nomeAluno;
+        return NomeAluno;
     }
 
     public void setNomeAluno(String nomeAluno) {
-        this.nomeAluno = nomeAluno;
+        this.NomeAluno = nomeAluno;
     }
 
     public long getId() {
@@ -32,18 +32,18 @@ public class Aluno {
     }
 
     public String getMatriculaAluno() {
-        return matriculaAluno;
+        return MatriculaAluno;
     }
 
     public void setMatriculaAluno(String matriculaAluno) {
-        this.matriculaAluno = matriculaAluno;
+        this.MatriculaAluno = matriculaAluno;
     }
 
     public int getIdadeAluno() {
-        return idadeAluno;
+        return IdadeAluno;
     }
 
     public void setIdadeAluno(int idadeAluno) {
-        this.idadeAluno = idadeAluno;
+        this.IdadeAluno = idadeAluno;
     }
 }

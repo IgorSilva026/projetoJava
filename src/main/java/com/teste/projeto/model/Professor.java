@@ -9,8 +9,8 @@ public class Professor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int Id;
-    private String nomeProfessor;
-    private String disciplinaProfessor;
+    private String NomeProfessor;
+    private String DisciplinaProfessor;
 
     public int getId() {
         return Id;
@@ -21,18 +21,18 @@ public class Professor {
     }
 
     public String getNomeProfessor() {
-        return nomeProfessor;
+        return NomeProfessor;
     }
 
     public void setNomeProfessor(String nomeProfessor) {
-        this.nomeProfessor = nomeProfessor;
+        this.NomeProfessor = nomeProfessor;
     }
 
     public String getDisciplinaProfessor() {
-        return disciplinaProfessor;
+        return DisciplinaProfessor;
     }
 
     public void setDisciplinaProfessor(String disciplinaProfessor) {
-        this.disciplinaProfessor = disciplinaProfessor;
+        this.DisciplinaProfessor = disciplinaProfessor;
     }
 }
